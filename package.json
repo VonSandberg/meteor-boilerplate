@@ -1,0 +1,12 @@
+{
+  "name": "meteor-boilerplate",
+  "private": true,
+  "scripts": {
+    "remote": "npm i && MONGO_URL=mongodb://admin:admin@hostname.mlab.com:99999/db_name meteor",
+    "local": "npm i && MONGO_URL=mongodb://localhost:27017/db_name meteor"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "meteor-node-stubs": "~0.2.4"
+  }
+}

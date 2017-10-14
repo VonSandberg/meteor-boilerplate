@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+// libs
+@import "scss/libs/breakpoint/breakpoint";
+
+// helpers
+@import "scss/helpers/functions";
+@import "scss/helpers/mixins";
+
+// core
+@import "scss/core/variables";
+@import "scss/core/base";
+@import "scss/core/typography";
+
+// pages
+@import "scss/pages/homepage";
+
+// components
+@import "scss/components/header";
+@import "scss/components/footer";
